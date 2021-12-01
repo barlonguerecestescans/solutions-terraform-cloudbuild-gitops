@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "molten-nirvana-333116-tfstate"
     prefix = "env/prod"
   }
 }
